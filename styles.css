@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
 }
 
-a.nav-list {
+li {
   text-decoration: none;
 }
 
@@ -15,13 +16,49 @@ h1 {
 }
 
 nav {
-  padding: 10px 20vh 10px 20vh;
-  width: 100%;
+  background-color: lightblue;
+  padding: 10px 0px 10px 0px;
   display: flex;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
+  
 }
 
 ul {
   list-style: none;
+  
 }
+
+.nav-list li {
+  display: inline-block;
+  padding: 0, 30px;
+  
+}
+  button {
+    
+border-radius: 5px;
+}
+
+
+
+a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 10px 5px 10px 5px;
+}
+
+.nav-list li a{
+  padding-top: 10px;
+  transition: all 0.3s ease 0s;
+}
+
+head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 { 
+  padding: 10px;
+}
+
