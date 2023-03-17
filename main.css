@@ -1,8 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Public+Sans&family=Source+Code+Pro&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
- 
+}
+
+body {
+  background-color: #caf0f8;
 }
 
 li {
@@ -10,32 +14,32 @@ li {
 }
 
 h1 {
+  font-family: "Pacifico", sans-serif;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 nav {
-  background-color: lightblue;
+  background-color: #00b4d8;
   padding: 10px 0px 10px 0px;
   display: flex;
   text-align: center;
   justify-content: center;
-  
 }
 
 ul {
   list-style: none;
-  
 }
 
 .nav-list li {
   display: inline-block;
   padding: 0, 30px;
-  
 }
+
 button {
-  background-color: #4CAF50; /* Green */
+  background-color: #4CAF50;
+  /* Green */
   border: none;
   color: white;
   border: 2px;
@@ -45,14 +49,14 @@ button {
   font-size: 16px;
 }
 
-
 a {
-  font-size: 20px;
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
   text-decoration: none;
   padding: 10px 5px 10px 5px;
 }
 
-.nav-list li a{
+.nav-list li a {
   padding-top: 10px;
   transition: all 0.3s ease 0s;
 }
@@ -63,7 +67,7 @@ head {
   align-items: center;
 }
 
-h1 { 
+h1 {
   padding: 10px;
 }
 
@@ -73,11 +77,14 @@ img {
 }
 
 .book-container {
+  padding-top: 20px;
   display: grid;
-  width: 100%;
-  grid-template-columns: 300px 300px 300px;
-  row-gap: 10px;
-  column-gap: 10px;
-  align-items: center;
-  justify-items: center;
+  grid-template-columns: 300px 300px;
+  justify-content: center;
+  align-content: center;
+  grid-gap: 50px;
+}
+
+.book {
+  justify-self: center;
 }
